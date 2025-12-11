@@ -24,7 +24,7 @@ jobs:
           cd capacitor-app
           npm init -y
           npm install @capacitor/core @capacitor/android
-          npx cap init MyFinanceApp com.example.myfinanceapp --web-dir=../
+          npx cap init MyFinanceApp com.example.myfinanceapp --web-dir=.
 
       - name: Add Android platform
         run: |
